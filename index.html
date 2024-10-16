@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> student form</title>
+</head>
+
+<body bgcolor="pink">
+    <h1>
+        <center><i><u>XYZ COLLEGE</u></i></center>
+    </h1>
+    <h2>
+        <center><u>Admission Form</u></center>
+    </h2>
+    <br><br>
+    <form>
+
+        <center>
+            <h2>STUDENT INFO</h2>
+        </center>
+        <center><label for="Firstname"><strong>First Name:</strong></label>
+            <input type="text" name="Firstname" id="Firstname"" size=" 30" placeholder="Enter first name" />
+        </center> <br> <br>
+
+        <center><label for="Last Name"><strong>Last Name:</strong></label>
+            <input type="text" name="Lastname" id="Lastname" size="30" placeholder="Enter last name">
+        </center><br> <br>
+
+        <center> <label for="Father name"><strong>Father Name:</strong></label>
+            <input type="text" name="Fathername" id="Fathername" size="30" placeholder="Enter Father name" />
+        </center><br>
+
+        <center> <label for="course"><strong>Course:</strong></label>
+            <select name="course" id="course">
+                <option value="BSC">BSC</option>
+                <option value="BBA">BBA</option>
+                <option value="B.TECH">B.TECH</option>
+                <option value="MBA">MBA</option>
+                <option value="MSC">MSC</option>
+                <option value="M.TECH">M.TECH</option>
+
+            </select>
+        </center><br><br>
+
+
+        <center><label for="Gender"><strong>Gender:</strong></label> <br> <br>
+            <input type="radio" name="Male" />Male 
+            <input type="radio" name="Female" />Female
+            <input type="radio" name="Other" />Other
+        </center> <br>
+
+        <center><label for="Date Of Birth"><strong>Date Of Birth:</strong></label>
+            <input type="date" name="Date Of Birth" size="30" id="Date Of Birth" required />
+        </center><br>
+
+        <center>
+            <h2>CONTACT INFO</h2>
+        </center>
+
+        <center> <label for="email"><strong>email:</strong></label>
+            <input type="email" name="email" size="30" id="email" placeholder="email@xyz.com" required> <br><br>
+        </center>
+
+        <center><label for="password"><strong>Password:</strong></label>
+            <input type="password" id="password" name="password" size="30" placeholder="enter password">
+        </center> <br>
+
+        <center><label for="phone number"><strong>Phone Number:</strong></label>
+            <input type="number" name="phone number" id="phone number" size="30" placeholder="enter you phone number">
+        </center>
+        <br><br>
+
+        <center><label for="address"><strong>Address:</strong></label>
+            <textarea name="address" id="address" cols="80" rows="5"></textarea>
+        </center>
+
+        <center><input type="submit"></center>
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
